@@ -18,6 +18,11 @@ public class Biblioteca {
     public void addCarte(Carte c){
         carti .add(c);
     }
+
+    public void removeBook(Carte c){
+        carti.remove(c);
+    }
+
     @Override
     public String toString(){
         StringBuilder builder = new StringBuilder();
